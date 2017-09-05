@@ -1,0 +1,15 @@
+# need to map out full examples and make sure both the validator and processor will ignore comments
+- name: Yahoo Homepage
+  url: https://www.yahoo.com/
+  timeout: 10
+  skip_event: true
+  tags:
+    team: teamname
+- name: Google Homepage
+  url: https://www.google.com/
+  timeout: 5
+  skip_event: true
+  tags:
+    team: teamname
+    location: internal
+    test: smoketest
