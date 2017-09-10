@@ -4,12 +4,13 @@
   timeout: 10
   skip_event: true
   tags:
-    team: teamname
+  - team:teamname
 - name: Google Homepage
   url: https://www.google.com/
   timeout: 5
   skip_event: true
   tags:
-    team: teamname
-    location: internal
-    test: smoketest
+  - team:teamname
+  - location:internal
+  - test:smoketest
+  - authorized
