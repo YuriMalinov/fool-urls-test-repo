@@ -14,3 +14,13 @@
   - location:internal
   - test:smoketest
   - authorized
+- name: Invalid check!!
+  url: https://www.google.com/
+  timeout: 5
+  skip_event: true
+  headers:
+    Cookie: Lookie=123
+  tags:
+  - location:internal
+  - test:smoketest
+  - authorized
